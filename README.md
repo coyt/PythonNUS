@@ -1,5 +1,5 @@
 # PythonNUS
-Fully Cross platform data transmission between Nordic UART Service (NUS) and Python using the Bleak Project and Adafruit nrf52 Libraries
+Example of cross platform data transmission between Nordic UART Service (NUS) and Python using the Bleak Project and Adafruit nrf52 Libraries
 
 Unlike the [Adafruit BLE Desktop application](https://github.com/adafruit/adafruit-bluefruit-le-desktop) which is limited on windows to certain hardware BLE adapters, the use of [Bleak](https://github.com/hbldh/bleak) allows improved connectivity by supporting "Windows 10, version 16299 (Fall Creators Update) or greater"
 
