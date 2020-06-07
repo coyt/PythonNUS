@@ -5,7 +5,9 @@ Unlike the [Adafruit BLE Desktop application](https://github.com/adafruit/adafru
 
 #### Overview
 
-Quick Test program demonstrating data transmission between Adafruit Bluefruit BLE libraries running on a nrf52840 development board and Python running on a Windows 10 PC 
+Quick Test program demonstrating data transmission between Adafruit Bluefruit BLE libraries running on a nrf52840 development board and Python running on a Windows 10 PC
+
+The Python program simply awaits a BLE connection from a hardware device, and echoes back any received data. 
 
 This uses the Nordic Uart Service (NUS) and should work concurrently with other BLE services such as HID allowing cool features for devices such as BLE keyboards to communicate data over an additional channel - possibly to update configs during runtime, etc...
 
